@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             if(inp==guess){
                 tvInfo.setText("В точку");
                 bControl.setText("Сыграть еще");
+                etInput.setText("");
                 gameFinished=true;
             }
         }
